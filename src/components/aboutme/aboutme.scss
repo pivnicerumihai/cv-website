@@ -1,0 +1,48 @@
+.aboutme {
+    margin-top: 100px;
+    background-color: #0377D7;
+    color: white;
+    position: relative;
+    min-height: 300px;
+
+    p {
+        font-size: 18px;
+    }
+
+    .skills {
+        display: flex;
+        top: 150px;
+        color: black;
+
+        .front-end {
+            font-weight: 600;
+            width: 350px;
+            position: absolute;
+            top: 80%;
+            left: 20%;
+            background-color: white;
+            border:1px solid #0377D7;
+            border-radius: 10px;
+            padding-bottom: 20px;
+            img {
+                margin-top: 20px;
+                width: 25%;
+            }
+        }
+
+        .back-end {
+            width: 350px;
+            position: absolute;
+            top: 80%;
+            right: 20%;
+            background-color: white;
+            border:1px solid #0377D7;
+            border-radius: 10px;
+            padding-bottom: 20px;
+            img {
+                margin-top: 20px;
+                width: 25%;
+            }
+        }
+    }
+}
