@@ -1,5 +1,4 @@
 import React from "react";
-import "./projects.scss";
 
 import Project from "../project/project"
 
@@ -7,8 +6,8 @@ import PROJECTS_DATA from "./projects.data";
 
 function Projects(){
     return(
-        <div className="projects">
-            <h2>Projects</h2>
+        <div className="projects" id="projects">
+            <h2 style={{color:"#0377D7"}}>Projects</h2>
         <div className="project-items">
            {
                PROJECTS_DATA.map( el=> <Project 
@@ -16,7 +15,8 @@ function Projects(){
                 title={el.title}
                 codeURL={el.codeURL}
                 deployURL={el.deployURL}
-                imgURL={el.imgURL}/>)
+                imgURL={el.imgURL}
+                projectDetails={el.projectDetails}/>)
            }
         </div>
         </div>

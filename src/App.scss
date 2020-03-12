@@ -1,0 +1,241 @@
+$base-color: #0377D7;
+
+body {
+  margin:0;
+  padding:0;
+  text-align: center;
+  width:100%;
+  height:100vh;
+} 
+.container{
+  display:flex;
+  flex-direction: column;
+
+
+.navbar{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color:white;
+  z-index:10;
+}
+
+.home{
+  padding-top:20%;
+  align-items: center;
+
+}
+.aboutme{
+  margin-top:10%;
+  background-color:$base-color;
+  height:400px;
+  
+p {
+    font-size: 18px;
+}
+
+.skills {
+    display: flex;
+    top: 20%;
+    color: black;
+    position: relative;
+
+    .front-end {
+        font-weight: 600;
+        width: 350px;
+        position: absolute;
+        left: 20%;
+        background-color: white;
+        border:1px solid #0377D7;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        img {
+            margin-top: 20px;
+            width: 25%;
+        }
+    }
+
+    .back-end {
+        width: 350px;
+        position: absolute;
+        right: 20%;
+        
+        background-color: white;
+        border:1px solid #0377D7;
+        border-radius: 10px;
+        padding-bottom: 20px;
+    img {
+            margin-top: 20px;
+            width: 25%;
+        }
+    }
+}
+}
+.projects{
+  margin-top: 20%;
+.project-items{
+  border-style: solid none;
+  border-color: $base-color;
+  border-width: 1.5px;
+  padding-bottom: 150px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+.project{
+  position: relative;
+  background-color: $base-color;
+  border-radius: 20px;
+  overflow:hidden;
+  margin-top:30px;
+  max-width:450px;
+  .project-title{
+    transition: opacity 1s;
+  }
+  a{
+    background:none;
+    border:none;
+    font-size: 18px;    
+    font-weight: 800;
+    color:white;
+    outline:none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .project-screenshot{
+    width:450px;
+    transition:all 1s;
+  
+  }
+  .project-details{
+    opacity: 0;
+    position: absolute;
+    transition: all 2s;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    font-weight: 600;
+    font-size:20px;
+    
+    a{
+      
+      font-weight:300;
+      color:white;
+      border: 1px solid white;
+      border-radius: 10px;
+      background-color: $base-color;
+      padding:10px;
+      position: relative;
+      top:20px;
+      margin:30px;
+      &:hover {
+        color:$base-color;
+        border: 1px solid $base-color;
+        background-color:white;
+      }
+  
+    }
+     }
+     &:hover{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       width:450px;
+
+      .project-title{
+       opacity:0;
+      }
+     .project-details{
+       opacity: 1;
+   
+     }
+     .git{
+       display: none;
+     }
+     .project-screenshot{
+       opacity:0;
+       transform:scale(1.2);
+       
+     }
+     }
+}
+
+
+}
+}
+.contact {
+  background-color: $base-color;
+  color:white;
+  padding-bottom:50px;
+  .contact-form{
+    display:flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+  .name{
+    display:block;
+    width:500px;
+    padding:7px;
+    border-top:none;
+    border-bottom: 1px solid white;
+    background-color: rgb(47, 156, 192);
+    :focus{
+      background-color:rgb(47, 156, 192);
+    }
+    &::placeholder{
+      color: white;
+    }
+  }
+  .email{
+    width:500px;
+    padding:7px;
+    margin-top:5px;
+    border-top:none;
+    border-bottom: 1px solid white;
+    background-color: rgb(47, 156, 192);
+    :focus{
+      background-color:rgb(47, 156, 192);
+    }
+    &::placeholder{
+      color: white;
+    }
+  }
+  .message{
+    display:block;
+    width:500px;
+    height:300px;
+    padding:7px;
+    margin-top:5px;
+    border-top:none;
+    border-bottom: 1px solid white;
+    background-color: rgb(47, 156, 192);
+    :focus{
+      background-color:rgb(47, 156, 192);
+    }
+    &::placeholder{
+      color: white;
+    }
+  }
+  .submit-button{
+    font-weight:700;
+    color:white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: $base-color;
+    padding:10px;
+    margin:20px;
+    &:hover {
+      color:$base-color;
+      border: 1px solid $base-color;
+      background-color:white;
+      cursor:pointer;
+    }
+  }
+  }
+}
+

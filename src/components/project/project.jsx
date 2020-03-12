@@ -1,14 +1,21 @@
 import React from "react";
-import "./project.scss";
 
-function Project({id, title, deployURL, codeURL,imgURL}){
-    return(
+function Project({ id, title, deployURL, codeURL, imgURL, projectDetails }) {
+    return (
         <div className="project">
-            <h3><a href={`${codeURL}`}>{title}</a></h3>
-            <a href={`${codeURL}`}><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" className="git"/></a>
-            <a href={`${codeURL}`}><img src={`${imgURL}`} className="project-screenshot"/></a>
-            <h4><a href={`${deployURL}`} > See it live! </a></h4>
+            <h3 className="project-title">{title}</h3>
+            {/* <a href={`${codeURL}`}><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" className="git"/></a> */}
+            <img src={`${imgURL}`} className="project-screenshot" />
+
+            <div className="project-details">
+                {`${projectDetails}`}
+                <div className="button-links">
+                <a href={`${deployURL}`}> See it live</a>
+                <a href={`${codeURL}`}>GitHub </a>
+                </div>
+            </div>
         </div>
+
     )
 }
 

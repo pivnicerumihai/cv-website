@@ -1,11 +1,10 @@
 import React from "react";
-import "./aboutme.scss";
 
 function Aboutme() {
     return (
-        <div className="aboutme">
+        <div className="aboutme" id="aboutme">
             <div>
-                <h1>Hi, I'm Mihai. Nice to meet you</h1>
+                <h1>Hi, I'm Mihai.</h1>
                 <p>I began my journey learning web-development almost two years ago.<br /> Most of my knowledge I got it by watching videos, tutorials, reading documentations and writing code.<br /> Some of my projects can be seen in the section below. </p>
             </div>
             <div className="skills">
