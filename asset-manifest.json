@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pivnicerumihai/cv-website.git/static/css/main.ed207b0f.chunk.css",
+    "main.js": "/pivnicerumihai/cv-website.git/static/js/main.68529889.chunk.js",
+    "main.js.map": "/pivnicerumihai/cv-website.git/static/js/main.68529889.chunk.js.map",
+    "runtime-main.js": "/pivnicerumihai/cv-website.git/static/js/runtime-main.1700c55a.js",
+    "runtime-main.js.map": "/pivnicerumihai/cv-website.git/static/js/runtime-main.1700c55a.js.map",
+    "static/js/2.16e23f52.chunk.js": "/pivnicerumihai/cv-website.git/static/js/2.16e23f52.chunk.js",
+    "static/js/2.16e23f52.chunk.js.map": "/pivnicerumihai/cv-website.git/static/js/2.16e23f52.chunk.js.map",
+    "index.html": "/pivnicerumihai/cv-website.git/index.html",
+    "precache-manifest.6ff41703c4e0745345edd3aba32775c0.js": "/pivnicerumihai/cv-website.git/precache-manifest.6ff41703c4e0745345edd3aba32775c0.js",
+    "service-worker.js": "/pivnicerumihai/cv-website.git/service-worker.js",
+    "static/css/main.ed207b0f.chunk.css.map": "/pivnicerumihai/cv-website.git/static/css/main.ed207b0f.chunk.css.map",
+    "static/js/2.16e23f52.chunk.js.LICENSE.txt": "/pivnicerumihai/cv-website.git/static/js/2.16e23f52.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1700c55a.js",
+    "static/js/2.16e23f52.chunk.js",
+    "static/css/main.ed207b0f.chunk.css",
+    "static/js/main.68529889.chunk.js"
+  ]
+}
