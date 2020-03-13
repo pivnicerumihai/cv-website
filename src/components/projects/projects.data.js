@@ -50,8 +50,8 @@ const PROJECTS_DATA = [
     {
         id:6,
         title:"To Do List",
-        deployURL:"",
-        codeURL:"",
+        deployURL:"https://sheltered-eyrie-05696.herokuapp.com/",
+        codeURL:"https://github.com/pivnicerumihai/todolist",
         imgURL:"https://snipboard.io/NfhCcO.jpg",
         projectDetails: " To-do app created using ExpressJS and MongoDB"
     }
