@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pivnicerumihai/cv-website/static/css/main.ed207b0f.chunk.css",
-    "main.js": "/pivnicerumihai/cv-website/static/js/main.76e0a5c4.chunk.js",
-    "main.js.map": "/pivnicerumihai/cv-website/static/js/main.76e0a5c4.chunk.js.map",
-    "runtime-main.js": "/pivnicerumihai/cv-website/static/js/runtime-main.3821c3fc.js",
-    "runtime-main.js.map": "/pivnicerumihai/cv-website/static/js/runtime-main.3821c3fc.js.map",
-    "static/js/2.16e23f52.chunk.js": "/pivnicerumihai/cv-website/static/js/2.16e23f52.chunk.js",
-    "static/js/2.16e23f52.chunk.js.map": "/pivnicerumihai/cv-website/static/js/2.16e23f52.chunk.js.map",
-    "index.html": "/pivnicerumihai/cv-website/index.html",
-    "precache-manifest.37fd1db4e0d069433f482ef5fe4f37aa.js": "/pivnicerumihai/cv-website/precache-manifest.37fd1db4e0d069433f482ef5fe4f37aa.js",
-    "service-worker.js": "/pivnicerumihai/cv-website/service-worker.js",
-    "static/css/main.ed207b0f.chunk.css.map": "/pivnicerumihai/cv-website/static/css/main.ed207b0f.chunk.css.map",
-    "static/js/2.16e23f52.chunk.js.LICENSE.txt": "/pivnicerumihai/cv-website/static/js/2.16e23f52.chunk.js.LICENSE.txt"
+    "main.css": "/cv-website/static/css/main.ed207b0f.chunk.css",
+    "main.js": "/cv-website/static/js/main.cedf52f2.chunk.js",
+    "main.js.map": "/cv-website/static/js/main.cedf52f2.chunk.js.map",
+    "runtime-main.js": "/cv-website/static/js/runtime-main.87c0c923.js",
+    "runtime-main.js.map": "/cv-website/static/js/runtime-main.87c0c923.js.map",
+    "static/js/2.16e23f52.chunk.js": "/cv-website/static/js/2.16e23f52.chunk.js",
+    "static/js/2.16e23f52.chunk.js.map": "/cv-website/static/js/2.16e23f52.chunk.js.map",
+    "index.html": "/cv-website/index.html",
+    "precache-manifest.9322632da8be1e2c82a118a690cc87d5.js": "/cv-website/precache-manifest.9322632da8be1e2c82a118a690cc87d5.js",
+    "service-worker.js": "/cv-website/service-worker.js",
+    "static/css/main.ed207b0f.chunk.css.map": "/cv-website/static/css/main.ed207b0f.chunk.css.map",
+    "static/js/2.16e23f52.chunk.js.LICENSE.txt": "/cv-website/static/js/2.16e23f52.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3821c3fc.js",
+    "static/js/runtime-main.87c0c923.js",
     "static/js/2.16e23f52.chunk.js",
     "static/css/main.ed207b0f.chunk.css",
-    "static/js/main.76e0a5c4.chunk.js"
+    "static/js/main.cedf52f2.chunk.js"
   ]
 }
