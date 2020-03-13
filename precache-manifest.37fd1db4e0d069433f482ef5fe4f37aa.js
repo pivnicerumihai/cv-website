@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e688fa38684cce8ef9b467b9494edb1f",
+    "revision": "2db7f7fe5853a7f54d3e75d7fecd1ca0",
     "url": "/pivnicerumihai/cv-website/index.html"
   },
   {

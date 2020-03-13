@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pivnicerumihai/cv-website/precache-manifest.73218c6054e3e6a8938666ecc253b994.js"
+  "/pivnicerumihai/cv-website/precache-manifest.37fd1db4e0d069433f482ef5fe4f37aa.js"
 );
 
 self.addEventListener('message', (event) => {
